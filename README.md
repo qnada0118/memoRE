@@ -175,6 +175,7 @@
 <br><br>
 
 ## 🛠 기술 스택
+<img width="3588" height="1892" alt="448868135-3144e8d0-41ce-4f1e-a9d6-8e1bb48ee438" src="https://github.com/user-attachments/assets/dc02f524-916d-443b-8fbf-078743cf03a1" />
 
 ### Core
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
@@ -225,11 +226,6 @@
 | Runtime | Android, iOS, Web, Desktop |
 
 </details>
-<br><br>
-
-<img width="3588" height="1892" alt="448868135-3144e8d0-41ce-4f1e-a9d6-8e1bb48ee438" src="https://github.com/user-attachments/assets/dc02f524-916d-443b-8fbf-078743cf03a1" />
-
-
 <br><br>
 
 ## 📁 프로젝트 구조
