@@ -104,13 +104,13 @@
 
 #### 제공 기능
 - **요약:** 메모 핵심 내용 자동 요약 <br>
-<img width="2323" height="2424" alt="448869771-93d582ef-e99c-4a63-b12e-abcd82f611f9" src="https://github.com/user-attachments/assets/4ae04f8d-9081-47d0-a179-91f37c5e85fb" />
+<img width="500" height="2424" alt="448869771-93d582ef-e99c-4a63-b12e-abcd82f611f9" src="https://github.com/user-attachments/assets/4ae04f8d-9081-47d0-a179-91f37c5e85fb" />
 
 - **번역:** 메모 자동 번역 및 본문 대체 <br>
-<img width="4597" height="2429" alt="448870137-e0fe9080-9eb1-43d8-8e2a-93ffbe8d931a" src="https://github.com/user-attachments/assets/9dbb0567-438e-4f63-b068-e15b7e53e121" />
+<img width="500" height="2429" alt="448870137-e0fe9080-9eb1-43d8-8e2a-93ffbe8d931a" src="https://github.com/user-attachments/assets/9dbb0567-438e-4f63-b068-e15b7e53e121" />
 
 - **장소 추출:** 메모 속 장소명 분석 <br>
-<img width="251" height="528" alt="448870373-ae6bfcd0-3cf1-40ec-b9b8-c2a6f8dc6b85" src="https://github.com/user-attachments/assets/dd1ca0bc-73ca-46db-b3aa-f0ee2974cc06" />
+<img width="250" height="528" alt="448870373-ae6bfcd0-3cf1-40ec-b9b8-c2a6f8dc6b85" src="https://github.com/user-attachments/assets/dd1ca0bc-73ca-46db-b3aa-f0ee2974cc06" />
 
 - **캡션 추천:** 여행 메모용 짧은 문구 / 해시태그 생성 <br>
 <img width="250" height="528" alt="448870664-b0c640d5-40a8-4636-a72c-9087d59d53f4" src="https://github.com/user-attachments/assets/c56a7333-11ff-4029-9704-320f631c2db4" />
