@@ -42,6 +42,8 @@
 <br><br>
 
 ## ✨ Functions
+<img width="6082" height="2424" alt="448869362-9bca308b-cdf9-4faf-a42e-cb916f034adb" src="https://github.com/user-attachments/assets/37a0f57e-5ba8-4a2f-9d81-1b7915de717d" />
+
 
 ### 🔐 로그인 / 회원가입
 
@@ -94,7 +96,6 @@
 
 ### 🤖 AI 메모 보조
 <br>
-<img width="6082" height="2424" alt="448869362-9bca308b-cdf9-4faf-a42e-cb916f034adb" src="https://github.com/user-attachments/assets/37a0f57e-5ba8-4a2f-9d81-1b7915de717d" />
 
 
 #### AI 모달 시트
