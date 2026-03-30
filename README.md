@@ -41,7 +41,7 @@
 
 <br><br>
 
-## ✨ 주요 기능
+## ✨ Functions
 
 ### 🔐 로그인 / 회원가입
 
@@ -93,6 +93,8 @@
 <br>
 
 ### 🤖 AI 메모 보조
+<img width="6082" height="2424" alt="448869362-9bca308b-cdf9-4faf-a42e-cb916f034adb" src="https://github.com/user-attachments/assets/37a0f57e-5ba8-4a2f-9d81-1b7915de717d" />
+
 
 #### AI 모달 시트
 - 메모 화면에서 플로팅 버튼으로 AI 기능 호출
@@ -100,10 +102,14 @@
 - 메모 내용 변경 시 재요청 가능
 
 #### 제공 기능
-- **요약:** 메모 핵심 내용 자동 요약
-- **번역:** 메모 자동 번역 및 본문 대체
-- **장소 추출:** 메모 속 장소명 분석
-- **캡션 추천:** 여행 메모용 짧은 문구 / 해시태그 생성
+- **요약:** 메모 핵심 내용 자동 요약 <img width="2323" height="2424" alt="448869771-93d582ef-e99c-4a63-b12e-abcd82f611f9" src="https://github.com/user-attachments/assets/4ae04f8d-9081-47d0-a179-91f37c5e85fb" />
+
+- **번역:** 메모 자동 번역 및 본문 대체<img width="4597" height="2429" alt="448870137-e0fe9080-9eb1-43d8-8e2a-93ffbe8d931a" src="https://github.com/user-attachments/assets/9dbb0567-438e-4f63-b068-e15b7e53e121" />
+
+- **장소 추출:** 메모 속 장소명 분석<img width="251" height="528" alt="448870373-ae6bfcd0-3cf1-40ec-b9b8-c2a6f8dc6b85" src="https://github.com/user-attachments/assets/dd1ca0bc-73ca-46db-b3aa-f0ee2974cc06" />
+
+- **캡션 추천:** 여행 메모용 짧은 문구 / 해시태그 생성<img width="250" height="528" alt="448870664-b0c640d5-40a8-4636-a72c-9087d59d53f4" src="https://github.com/user-attachments/assets/c56a7333-11ff-4029-9704-320f631c2db4" />
+
 
 #### 활용 흐름
 ```text
@@ -214,10 +220,15 @@
 | Runtime | Android, iOS, Web, Desktop |
 
 </details>
+<br><br>
+
+<img width="3588" height="1892" alt="448868135-3144e8d0-41ce-4f1e-a9d6-8e1bb48ee438" src="https://github.com/user-attachments/assets/dc02f524-916d-443b-8fbf-078743cf03a1" />
+
 
 <br><br>
 
 ## 📁 프로젝트 구조
+
 
 ```text
 memoRE/
@@ -404,6 +415,8 @@ BASE_URL=http://localhost:8080
 | 송정원 | Flutter UI/UX 개발, 서버 연동, 기능 테스트 | [@alvn84](https://github.com/alvn84) |
 | 차재혁 | UI/UX 디자인, 세부 화면 설계 및 개발 | [@jhcha329](https://github.com/jhcha329) |
 
+
+<br><br>
 <div align="center">
 
 [⬆️ Back to top](#-memore)
