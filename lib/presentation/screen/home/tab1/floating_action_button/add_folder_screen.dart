@@ -8,6 +8,7 @@ import 'package:intl/intl.dart';
 import 'package:nova_places_api/models/place_autocomplete_prediction.dart';
 import 'package:nova_places_api/service/places_api.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import '../../folder_feature/folder_model.dart';
 
@@ -33,14 +34,16 @@ class _AddFolderScreenState extends State<AddFolderScreen>
   final PageController _pageController = PageController();
 
   // 클래스 내 변수 선언
-  late PlacesApi placesApi;
+  PlacesApi? placesApi;
   List<PlaceAutocompletePrediction> predictions = [];
 
   @override
   void initState() {
     super.initState();
-    placesApi = PlacesApi(apiKey: 'AIzaSyBmSwL2iuoNT0IR3UupWveT9Z5A608-LN4')
-      ..setLanguage('en');
+    final googlePlacesApiKey = dotenv.env['GOOGLE_PLACES_API_KEY'] ?? '';
+    if (googlePlacesApiKey.isNotEmpty) {
+      placesApi = PlacesApi(apiKey: googlePlacesApiKey)..setLanguage('en');
+    }
     _checkConnectivity();
   }
 
@@ -142,8 +145,9 @@ class _AddFolderScreenState extends State<AddFolderScreen>
                 _location = val;
               });
 
-              if (_isOnline && val.isNotEmpty) {
-                final response = await placesApi.placeAutocomplete(input: val);
+              if (_isOnline && placesApi != null && val.isNotEmpty) {
+                final response =
+                    await placesApi!.placeAutocomplete(input: val);
                 if (response.isSuccess && response.predictions != null) {
                   setState(() {
                     predictions = response.predictions!;
