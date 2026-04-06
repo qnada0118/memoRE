@@ -31,13 +31,16 @@ class _NewFolderScreenState extends State<NewFolderScreen>
   final PageController _pageController = PageController();
 
   // 클래스 내 변수 선언
-  late PlacesApi placesApi;
+  PlacesApi? placesApi;
   List<PlaceAutocompletePrediction> predictions = [];
 
   @override
   void initState() {
     super.initState();
-    placesApi = PlacesApi(apiKey: 'AIzaSyBmSwL2iuoNT0IR3UupWveT9Z5A608-LN4')..setLanguage('en');
+    final googlePlacesApiKey = dotenv.env['GOOGLE_PLACES_API_KEY'] ?? '';
+    if (googlePlacesApiKey.isNotEmpty) {
+      placesApi = PlacesApi(apiKey: googlePlacesApiKey)..setLanguage('en');
+    }
     _checkConnectivity();
   }
 
@@ -136,8 +139,9 @@ class _NewFolderScreenState extends State<NewFolderScreen>
                 _destination = val;
               });
 
-              if (_isOnline && val.isNotEmpty) {
-                final response = await placesApi.placeAutocomplete(input: val);
+              if (_isOnline && placesApi != null && val.isNotEmpty) {
+                final response =
+                    await placesApi!.placeAutocomplete(input: val);
                 if (response.isSuccess && response.predictions != null) {
                   setState(() {
                     predictions = response.predictions!;
